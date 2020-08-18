@@ -1,0 +1,63 @@
+/*Página externa de estilos CSS*/
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 20px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #db94b5;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  background: #D93682;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px;
+  }
+
+  /*Adicionando Flex Container*/
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+  }
+  
+  .container > div {
+    margin: 10px;
+  }
