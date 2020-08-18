@@ -1,4 +1,5 @@
 /*Página externa de estilos CSS*/
+
 body,
 ul,
 li,
@@ -65,7 +66,8 @@ footer{
     color: #ff0077;
    } 
 
-  /*Adicionando Flex Container*/
+  /* Adicionando Flexbox Container */
+
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -94,10 +96,12 @@ footer{
   padding: 30px;
 }
 
+ /* Adicionando Hover na Imagem */
+
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
 }
 
 img {
