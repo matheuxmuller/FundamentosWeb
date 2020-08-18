@@ -22,12 +22,16 @@ a {
 
 h1 {
   text-align: center;
-  margin-top: 100px;
+  padding: 50px;
 }
 
-img {
-  max-width: 100%;
-  display: flex;
+h2 {
+  text-align: center;
+  padding: 50px;
+}
+
+h3 {
+  text-align: left;
 }
 
 footer{
@@ -42,6 +46,7 @@ footer{
   align-items: center;
   padding: 20px;
 }
+
 
 .menu {
   display: flex;
@@ -78,11 +83,53 @@ footer{
     width: 80%;
     float: right;
 }
-.lado {
-
-}
 
 .wh {
   width: 900px;
   height: 900px;
 }
+
+.tm-social {
+  width: 50px;
+  padding: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  right: 20%;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #ff0077;
+}
+
+.wrapper:hover .overlay {
+  opacity: 50%;
+}
+
