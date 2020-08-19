@@ -1,5 +1,9 @@
 /*Página externa de estilos CSS*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 ul,
 li,
@@ -9,7 +13,7 @@ footer {
   padding: 20px;
   list-style: none;
   font-size: 1.2rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -35,12 +39,12 @@ h3 {
   text-align: left;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
 .header {
-  background: #D93682;
+  background: #d93682;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; /*Espaço entre os elementos do menu*/
@@ -48,45 +52,37 @@ footer{
   padding: 20px; /*Espaçamento do campo (que não é a margem, é a borda em volta)*/
 }
 
-
 .menu {
   display: flex;
 }
 
 .menu li {
-    margin-left: 10px;
-  }
-  
-  .menu li a {
-    display: block;
-    padding: 10px;
-  }
+  margin-left: 10px;
+}
 
-  /*Animação de Hover (cor ao passar o mouse em cima do elemento) na parte clicável do menu*/
+.menu li a {
+  display: block;
+  padding: 10px;
+}
 
-  .menu li a:hover{ 
-    text-decoration: none;
-    color: #ff0077;
-   } 
+/*Animação de Hover (cor ao passar o mouse em cima do elemento) na parte clicável do menu*/
 
-  /* Adicionando Flexbox Container */
+.menu li a:hover {
+  text-decoration: none;
+  color: #ff0077;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container > div {
-    margin: 10px;
-  }
+/* Adicionando Flexbox Container */
 
-  .formulario{
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-    margin-top: 50px;
-    width: 80%;
-    float: right;
+.container > div {
+  margin: 10px;
 }
 
 .wh {
@@ -101,7 +97,7 @@ footer{
   padding: 30px;
 }
 
- /* Adicionando Hover na Imagem */
+/* Adicionando Hover na Imagem */
 
 .wrapper {
   width: 100%;
@@ -134,7 +130,7 @@ img {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background: #ff0077;
 }
 
@@ -148,4 +144,52 @@ img {
   position: relative;
   width: 100px;
   border-radius: 75%;
+}
+
+/* Formulário */
+
+#contato {
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  margin: 0;
+}
+
+#contato h2 {
+  margin-top: 10px;
+}
+
+#contato div.row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#contato div.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.row {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.row button {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.row-2 {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.p-20 {
+  padding: 50px;
+  text-align: justify;
 }
