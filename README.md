@@ -1,3 +1,3 @@
-# FundamentosWeb
+# Fundamentos de Design e Desenvolvimento Web
 
-Meus primeiros trabalhos em front-end com HTML, CSS e JavaScript!
+Repositório das aulas de front-end na Generation Brasil, com noções iniciais de HTML, CSS, Bootstrap e JavaScript!
